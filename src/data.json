@@ -1,0 +1,90 @@
+{
+    "products": [
+      {
+        "productId": "P1001",
+        "productName": "Wireless Headphones",
+        "category": "Electronics",
+        "status": "Delivered"
+      },
+      {
+        "productId": "P1002",
+        "productName": "Smartphone",
+        "category": "Electronics",
+        "status": "Shipped"
+      },
+      {
+        "productId": "P1003",
+        "productName": "Men's T-Shirt",
+        "category": "Clothing",
+        "status": "Pending"
+      },
+      {
+        "productId": "P1004",
+        "productName": "Leather Wallet",
+        "category": "Accessories",
+        "status": "Cancelled"
+      },
+      {
+        "productId": "P1005",
+        "productName": "Electric Kettle",
+        "category": "Home Appliances",
+        "status": "Delivered"
+      },
+      {
+        "productId": "P1006",
+        "productName": "Fitness Band",
+        "category": "Wearable",
+        "status": "Shipped"
+      },
+      {
+        "productId": "P1007",
+        "productName": "Gaming Mouse",
+        "category": "Electronics",
+        "status": "Pending"
+      },
+      {
+        "productId": "P1008",
+        "productName": "Women's Handbag",
+        "category": "Clothing",
+        "status": "Delivered"
+      },
+      {
+        "productId": "P1009",
+        "productName": "Desk Lamp",
+        "category": "Furniture",
+        "status": "Cancelled"
+      },
+      {
+        "productId": "P1010",
+        "productName": "Bluetooth Speaker",
+        "category": "Electronics",
+        "status": "Delivered"
+      },
+      {
+        "productId": "P1011",
+        "productName": "charger c type",
+        "category": "Electronics",
+        "status": "Pending"
+      },{
+        "productId": "P1012",
+        "productName": "Necklace",
+        "category": "Jewellery",
+        "status": "Cancelled"
+      },{
+        "productId": "P1013",
+        "productName": "Earings",
+        "category": "Jewellery",
+        "status": "Delivered"
+      },{
+        "productId": "P1014",
+        "productName": "Pink Gown",
+        "category": "Women's clothing",
+        "status": "Shipped"
+      },{
+        "productId": "P1015",
+        "productName": "Blue sharara",
+        "category": "Women's clothing",
+        "status": "Delivered"
+      }
+    ]
+  }

@@ -1,0 +1,179 @@
+.home-content {
+    background-image: url('../images/banner.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh; /* Ensures full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    position: relative;
+  }
+  
+  /* Optional overlay for readability */
+  .home-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+      /* Semi-transparent black overlay */
+    z-index: 1;
+  }
+  
+  .text-box {
+    z-index: 2;
+     
+    text-align: right;
+    margin-left: 60%;
+  }
+  
+  .text-warning {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #F7AD45;
+    text-shadow: 0 0 10px #F7AD45, 0 0 20px black 0 0 30px #F7AD45;
+    font-family: "Sofia";
+  }
+  
+  .text-box h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.1;
+  }
+  
+  .lead {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+  
+  .text-box .btn {
+    background-color: orange;
+    margin-top: 2.5rem;
+    padding: 3px 15px;
+    font-size: 2rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .text-box .btn:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .home-content {
+      padding: 2rem;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .lead {
+        margin-top: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.4rem;
+      }
+    .text-box {
+      text-align: center;
+      max-width: 100%;
+      margin-left: 0;
+    }
+  
+    .home-content h1 {
+      font-size: 2rem;
+    }
+  
+    .home-content p {
+      font-size: 1rem;
+    }
+  
+    .home-content button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-content h1 {
+      font-size: 1.6rem;
+    }
+  
+    .home-content p {
+      font-size: 0.9rem;
+    }
+  
+    .lead {
+        margin-top: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.4rem;
+      }
+    .home-content button {
+      width: 100%;
+      padding: 12px;
+    }
+  }
+
+  
+
+  
+  /* Container for the entire homepage */
+.home-content {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Category section */
+.category-content {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* Styling for the category list */
+.category-products ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between images */
+  justify-content: center; /* Center-align the category items */
+  padding: 0;
+  list-style: none;
+}
+
+/* Each category item */
+.category-products li {
+  flex: 1 1 calc(33.33% - 20px); /* 3 items per row, adjust as needed */
+  max-width: 300px; /* Max width of each item */
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Category image styling */
+.category-products img {
+  width: 100%; /* Full width of its container */
+  height: 200px; /* Set a fixed height for uniformity */
+  object-fit: cover; /* Make sure the image covers the area without distortion */
+  border-radius: 8px; /* Optional: adds rounded corners to the image */
+  transition: transform 0.3s ease; /* Optional: adds a zoom effect on hover */
+}
+
+/* Optional hover effect on images */
+.category-products img:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Styling for category name */
+.category-products span {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
