@@ -18,8 +18,8 @@ export const UserProvider = ({ children }) => {
           Authorization: `Bearer ${token}`,
         };
 
-        const userRes = await axios.get('http://localhost:8005/auth/users/', { headers });
-        const userData = userRes.data?.user || userRes.data; 
+        const userRes = await axios.get('http://localhost:8000/auth/users/', { headers });
+        const userData = userRes.data?.user || userRes.data;
 
         setUser(userData);
         const extractedRole = userData?.role;
