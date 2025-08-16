@@ -26,7 +26,7 @@ const Dashboard = lazy(() => import('./pages/Dashboard'));
 const DashboardHome = lazy(() => import('./pages/DashboardHome.jsx'));
 const Employees = lazy(() => import('./pages/Employee'));
 const Settings = lazy(() => import('./pages/Settings'));
-const ProfileUpdate = lazy(() => import('./pages/Profileupdate'));
+const UpdateProfile = lazy(() => import('./pages/ProfileUpdate.jsx'));
 const Analytics = lazy(() => import('./pages/Analytics'));
 const SellerAnalytic = lazy(() => import('./pages/SellerAnalytic'));
 const AllSellerAnalytic = lazy(() => import('./pages/AllSellerAnalytic'));
